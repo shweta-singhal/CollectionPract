@@ -1,6 +1,7 @@
 package collectionExamples;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListRemove {
 	public static void main(String args[])
@@ -11,7 +12,13 @@ public class ArrayListRemove {
 		{
 		list.add(arr[i]);
 		}
-		System.out.println(list);
+		
+		
+		Iterator itr = list.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 		
 		
 	}
