@@ -11,6 +11,7 @@ public class LinklistAdd {
 		list.addFirst(20);
 		list.addLast(2);
 		list.add(4);
+		list.add(90);
 		Iterator itr = list.iterator();
 		while(itr.hasNext())
 		{
