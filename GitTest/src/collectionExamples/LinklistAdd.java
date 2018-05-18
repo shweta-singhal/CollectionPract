@@ -21,6 +21,18 @@ public class LinklistAdd {
 
 	public static void main(String args[])
 	{
+		LinkedList list = new LinkedList();
+		list.add(34);
+		list.addFirst(43);
+		list.add(32);
+		list.addLast(2);
+		list.add(9);
 		
+		
+		Iterator itr = list.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 	}
 }
